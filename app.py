@@ -3,7 +3,7 @@ import requests
 
 # Gemini API setup
 GEMINI_API_KEY = "AIzaSyCvzTcWX67xCTaFAQ9oSL1hI1Hwwe4DAwc"
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
 def generate_gemini_answer(topic, api_key):
     """Generate exam answer using Gemini API"""
